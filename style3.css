@@ -1,0 +1,890 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'open sans', sans-serif;
+}
+
+.type{
+    font-family: 'montserrat';
+}
+.header{
+    background-color:rgb(240, 238, 238);
+    padding: 20px;
+}
+
+h3,ul,li, .cart,form{
+    display: inline-block;
+}
+
+h3{
+    margin-left: 100px;
+}
+
+ul{
+    margin-left: 40px;
+}
+
+li{
+    margin-left: 10px;
+}
+
+.a{
+    color: rgb(103, 104, 105);
+}
+
+.a:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.s{
+    color: rgb(103, 104, 105);
+}
+
+.s:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.bxs-down-arrow{
+    margin-left: -13px;
+    font-size: 10px;
+    color: rgb(103, 104, 105);
+}
+
+.bxs-down-arrow:hover{
+    color: black;
+    cursor: pointer;
+}
+
+form{
+    display: flex;
+    display: inline;
+}
+
+.cart{
+    margin-left: 40%;
+    /*font-size: 20px;*/
+    border-radius: 7px;
+    border: 1px solid;
+    text-align: center;
+    padding-top: px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 6px;
+}
+
+.cart:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.bxs-cart{
+    font-size: 20px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.bx-radio-circle-marked{
+    font-size: 20px;
+}
+
+.c{
+    display: inline;
+    text-align: center;
+    margin-top: -10px;
+    font-size:medium;
+}
+
+.o{
+    text-align: center;
+    display: inline;
+    font-weight: bold;
+    border: 1px solid;
+    border-radius: 15px;
+    margin-bottom: 1.125rem;
+    margin-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 1.5px;
+    padding-left: 6.8px;
+    padding-right: 6.8px;
+    color: white;
+    background-color: black;
+    border-style: none;
+    /* margin-top: 90px;  */
+}
+
+.o span{
+    margin-bottom: 10px;
+    margin-top: -5px;
+}
+
+.padding{
+    background-color: rgb(44, 43, 43);
+    padding: 100px;
+}
+
+.shop{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.with{
+    color: rgb(136, 138, 138);
+    text-align: center;
+    font-size: large;
+    margin-top: 8px;
+}
+
+.border{
+    border: 1px solid gray;
+    width: 240px;
+    height: 350px;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-color: rgb(209, 210, 211);
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* align-items: center;
+    justify-content: center; */
+    padding: 80px;
+    margin-left: 30px;
+}
+
+img{
+    width: 100%;
+    height: 160px;
+}
+
+.product{
+    align-items: center;
+    margin-top: 30px;
+}
+
+.fan{
+    margin-left: 55px;
+    margin-top: 30px;
+    font-size: 200;
+}
+
+.para{
+    margin-left: 65px;
+    margin-top: 15px;
+}
+
+.view{
+    margin-top: 40px;
+    margin-left: 60px;
+    padding: 10px;
+    border-radius: 0.375rem;
+    margin-bottom: 30px;
+    padding-right: 18px;
+    padding-left: 18px;
+    font-size: medium;
+    border: 1px solid;
+}
+
+.view:hover{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(44, 43, 43);
+}
+
+.to{
+    margin-top: 30px;
+    margin-left: 60px;
+    padding: 10px;
+    border-radius: 0.375rem;
+    margin-bottom: 30px;
+    padding-right: 18px;
+    padding-left: 18px;
+    font-size: medium;
+    border: 1px solid;
+}
+
+.to:hover{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(44, 43, 43);
+}
+
+.too{
+    margin-top: 35px;
+    margin-left: 60px;
+    padding: 10px;
+    border-radius: 0.375rem;
+    margin-bottom: 30px;
+    padding-right: 18px;
+    padding-left: 18px;
+    font-size: medium;
+    border: 1px solid;
+}
+
+.too:hover{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(44, 43, 43);
+}
+
+.box{
+    margin-top: 10px;
+    margin-left: 190px;
+    position: absolute;
+    font-size: small;
+    font-weight: bolder;
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 6px;
+    padding: 3px;
+    text-align: center;
+    width: 35px;
+}    
+
+.spl{
+    margin-top: 20px;
+    margin-left: 65px;
+}
+
+.star{
+    margin-left: 65px;
+    margin-top: 10px;
+}
+
+.bxs-star{
+    color: yellow;
+}
+
+
+.u{
+    display: inline;
+    margin-left: 8px;
+}
+
+.r{
+    display: inline;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.tem{
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+.m{
+    display: inline-block;
+    margin-left:70px;
+    margin-top: 15px;
+}
+
+.pop{
+    margin-left: 65px;
+    margin-top: 10px;
+} 
+
+.src{
+    margin-top: 11px;
+    margin-left: 80px;
+}
+
+.pai{
+    margin-top: 10px;
+    margin-left: 90px;
+}
+
+.it{
+    margin-left: 83px;
+    margin-top: 30px;
+} 
+
+.ee{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 75px;
+    margin-top: 10px;
+}
+
+.an{
+    margin-left: 54px;
+    margin-top: 30px;
+}
+
+.cy{
+    margin-top: 10px;
+    margin-left: 59px;
+}
+
+.black{
+    background-color: rgb(44, 43, 43);
+    color: #ffffff;
+    padding: 60px;
+}
+
+
+.end{
+    text-align: center;
+}
+
+    @media screen and (max-width:1440px) {
+        .menu2{
+            display: none;
+        }    
+    }
+
+     @media only screen and (max-width:1024px) and (min-width:769px){
+        .container{
+            display: grid;
+            grid-template-columns: auto auto auto ; 
+            padding: 0px;
+            margin-left: 60px;
+            /* gap: 40px;  */
+            /* width: 40px;   */
+        }
+         .cart{
+            margin-left:400px;
+            margin-top: 0px;
+        }
+        #product-seven{
+            grid-column: span 1;
+            justify-self: end;
+        }
+        #product-eight{
+            grid-column: span 2;
+            justify-self: center;
+        }
+
+        .start{
+            margin-left: 40px;
+        }
+        
+    } 
+
+    @media only screen and (max-width:769px) and (min-width:426px)  {
+        .container{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr ;
+            /* padding-left: 40px; */
+            /* width: 30px;
+            gap: 12px;  */
+        }
+
+        .border{
+            width: 170px;
+        }
+
+        .too{
+            font-size: 10px;
+            margin-left: 40px;
+        }
+
+        .to{
+            font-size: 10px;
+            margin-left: 40px;
+        }
+
+        .view{
+            font-size: 10px;
+            margin-left: 40px;
+        }
+
+        .fan{
+            font-size: 16px;
+            margin-left: 40px;
+        }
+
+        .para{
+            margin-left: 40px;
+        }
+
+        .view{
+            font-size: 14px;
+            margin-left: 30px;
+        }
+
+        .spl{
+            font-size: 17px;
+            margin-left: 40px;
+        }
+
+        .star{
+            margin-left: 40px;
+        }
+
+        .r{
+            margin-left: 40px;
+        }
+
+        .box{
+            margin-left: 120px;
+        }
+
+        .tem{
+            font-size: 18px;
+            margin-left: 40px;
+        }
+
+        .m{
+            margin-left: 35px;
+        }
+
+        .pop{
+            margin-left: 40px;
+            font-size: 17px;
+        }
+
+        .src{
+            margin-left: 42px;
+        }
+
+        .pai{
+            margin-left: 60px;
+        }
+
+        .it{
+            font-size: 17px;
+            margin-left: 43px;
+        }
+
+        .ee{
+            margin-left: 35px;
+        }
+
+        .an{
+            margin-left: 30px;
+            font-size: 17px;
+        }
+
+        .cy{
+            margin-left: 30px;
+        }
+
+        #product-seven{
+            grid-column: span 1;
+            justify-self: end;
+        }
+
+        #product-eight{
+            grid-column: span 2;
+            justify-self: center;
+        }
+
+        .menu2{
+            display: grid;
+            margin-left: 650px;
+            font-size: 40px;
+            margin-top: -30px;
+            border: 1px solid rgb(204, 203, 203);
+            border-radius: 8px;
+            color: #666464;
+        }
+
+        .start{
+            margin-left: 20px;
+        }
+
+        .cart{ 
+            display: none;
+        }
+
+        .list{
+            display: none;
+        } 
+
+    }
+
+    @media only screen and (max-width:425px) {
+        .container{
+            display: grid;
+            grid-template-columns: 1fr 1fr ;
+            gap: 20px;
+            width: 10px;
+            /* margin-left: 120px; */
+            align-items: center;
+            justify-content: center;
+            margin-left: 130px;
+        }
+
+        .border{
+            width: 160px;
+        }
+
+        .menu2{
+            margin-left: 340px;
+            display: grid;
+            margin-top: -70px;
+            border: 1px solid rgb(204, 203, 203);
+            border-radius: 8px;
+            color: #666464;
+        }
+
+        .list{
+            visibility: hidden;
+        }
+
+        .cart{
+            visibility: hidden;
+        }
+
+        .shop{
+            font-size: 28px;
+            /* margin-left: -2px; */
+        }
+
+        .with{
+            font-size: 19px;
+            /* margin-left: -11px; */
+        }
+
+        .black{
+            margin-left: -27px;
+        }
+
+        .start{
+            margin-left: 0px;
+        }
+
+        .bx-menu{
+            visibility: visible; 
+            font-size: 40px;
+        }
+
+        .fan{
+            font-size: 14px;
+            margin-left: 27px;
+        }
+
+        .para{
+            margin-left: 25px;
+        }
+
+        .too{
+            font-size: 13px;
+            margin-left: 24px;
+        }
+
+        .to{
+            font-size: 13px;
+            margin-left: 24px;
+        }
+
+        .view{
+            font-size: 13px;
+            margin-left: 24px;
+        }
+
+        .spl{
+            margin-left: 30px;
+        }
+
+        .star{
+            margin-left: 30px;
+        }
+
+        .r{
+            margin-left: 30px;
+        }
+
+        .box{
+            margin-left: 100px;
+        }
+
+        .tem{
+            font-size: 18px;
+            margin-left: 40px;
+        }
+
+        .m{
+            margin-left: 35px;
+        }
+
+        .pop{
+            margin-left: 25px;
+            font-size: 17px;
+        }
+
+        .src{
+            margin-left: 25px;
+        }
+
+        .pai{
+            margin-left: 50px;
+        }
+
+        .it{
+            font-size: 17px;
+            margin-left: 43px;
+        }
+
+        .ee{
+            margin-left: 35px;
+        }
+
+        .an{
+            margin-left: 20px;
+            font-size: 17px;
+        }
+
+        .cy{
+            margin-left: 20px;
+        }
+    }
+
+    @media only screen and (max-width:375px) {
+        .container{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin-left: 100px;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .border{
+            width: 150px;
+        }
+
+        .shop{
+            font-size: 28px;
+        }
+
+        .with{
+            font-size: 19px;
+        }
+
+        .start{
+            margin-left: 0px;
+        }
+
+        .bx-menu{
+            visibility: visible; 
+            font-size: 40px;
+        }
+
+        .menu2{
+            margin-left: 290px;
+            display: grid;
+            margin-top: -90px; 
+            border: 1px solid rgb(204, 203, 203);
+            border-radius: 8px;
+            color: #666464;
+        }
+
+        .fan{
+            font-size: 14px;
+            margin-left: 27px;
+        }
+
+        .para{
+            margin-left: 25px;
+        }
+
+        .too{
+            font-size: 13px;
+            margin-left: 24px;
+        }
+
+        .to{
+            font-size: 13px;
+            margin-left: 24px;
+        }
+
+        .view{
+            font-size: 13px;
+            margin-left: 24px;
+        }
+
+        .spl{
+            margin-left: 30px;
+        }
+
+        .star{
+            margin-left: 30px;
+        }
+
+        .r{
+            margin-left: 30px;
+        }
+
+        .box{
+            margin-left: 100px;
+        }
+
+        .tem{
+            font-size: 18px;
+            margin-left: 40px;
+        }
+
+        .m{
+            margin-left: 35px;
+        }
+
+        .pop{
+            margin-left: 25px;
+            font-size: 17px;
+        }
+
+        .src{
+            margin-left: 25px;
+        }
+
+        .pai{
+            margin-left: 50px;
+        }
+
+        .it{
+            font-size: 17px;
+            margin-left: 43px;
+        }
+
+        .ee{
+            margin-left: 35px;
+        }
+
+        .an{
+            margin-left: 20px;
+            font-size: 17px;
+        }
+
+        .cy{
+            margin-left: 20px;
+        }
+
+    }
+    
+    @media only screen and (max-width:320px) {
+        .container{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin-left: 69px;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .border{
+            width: 130px;
+        }
+
+        .star{
+            margin-left: 15px;
+        }
+
+        .r{
+            margin-left: 15px;
+        }
+
+        .fan{
+            font-size: 14px;
+            margin-left: 17px;
+        }
+
+        .para{
+            margin-left: 15px;
+        }
+
+        .too{
+            font-size: 10px;
+            margin-left: 20px;
+        }
+
+        .to{
+            font-size: 10px;
+            margin-left: 20px;
+        }
+
+        .view{
+            font-size: 10px;
+            margin-left: 20px;
+        }
+
+        .spl{
+            margin-left: 17px;
+        }
+
+        .star{
+            margin-left: 15px;
+        }
+
+        .r{
+            margin-left: 17px;
+        }
+
+        .box{
+            margin-left: 80px;
+        }
+
+        .tem{
+            font-size: 18px;
+            margin-left: 30px;
+        }
+
+        .m{
+            margin-left: 20px;
+        }
+
+        .pop{
+            margin-left: 10px;
+            font-size: 17px;
+        }
+
+        .src{
+            margin-left: 15px;
+        }
+
+        .pai{
+            margin-left: 35px;
+        }
+
+        .it{
+            font-size: 17px;
+            margin-left: 30px;
+        }
+
+        .ee{
+            margin-left: 20px;
+        }
+
+        .an{
+            margin-left: 10px;
+            font-size: 15px;
+        }
+
+        .cy{
+            margin-left: 5px;
+        }
+
+        .bx-menu{
+            visibility: visible; 
+            font-size: 40px;
+        }
+
+        .menu2{
+            margin-left: 220px;
+            display: grid;
+            /* margin-top: -90px; */
+            border: 1px solid rgb(204, 203, 203);
+            border-radius: 8px;
+            color: #666464;
+        }
+        
+        .start{
+            margin-left: 0px;
+            display: grid;
+        }
+
+        .shop{
+            font-size: 19px;
+        }
+
+        .with{
+            font-size: 19px;
+        }
+
+    }
